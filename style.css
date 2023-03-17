@@ -192,6 +192,18 @@ nav ul li a::after {
     padding-top: 7.5rem;
 }
 
+.description-f1{
+    font-family: Courier, monospace;
+    font-size: larger;
+    font-style: italic;
+    font-weight: bolder;
+}
+.logo-f1{
+    background-image: url(img/logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /* FOOTER */
 .footer {
     grid-area: footer;
