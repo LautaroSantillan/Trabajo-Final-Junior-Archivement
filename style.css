@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* BODY */
 body {
     background-image: url(img/background.jpg);
     background-size: cover;
@@ -20,6 +21,7 @@ body {
     grid-template-areas: "header" "main" "footer";
 }
 
+/* HEADER */
 .header {
     grid-area: header;
     width: 100%;
@@ -100,11 +102,11 @@ nav ul li a {
     position: relative;
     letter-spacing: 0.125rem;
     text-decoration: none;
-    color: #0d0d0d ;
+    color: white;
 }
 nav ul li a:hover {
     text-decoration: none;
-    color: ghostwhite;
+    color: #e30a0a;
 }
 nav ul li a:hover::before, nav ul li a:hover::after {
     transform: scaleX(1);
@@ -182,4 +184,78 @@ nav ul li a::after {
     .nombre {
         font-size: 1.25rem;
     }
+}
+
+/* MAIN */
+.main {
+    grid-area: main;
+    padding-top: 7.5rem;
+}
+
+/* FOOTER */
+.footer {
+    grid-area: footer;
+    background-image: linear-gradient(to bottom, black, #e30a0a);
+    width: 100%;
+}
+
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.section1 h4 {
+    font-size: 1.875rem;
+    line-height: 6.25rem;
+    color: white;
+}
+.section1 a {
+    text-decoration: none;
+}
+
+.redes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.redes h4 {
+    font-size: 1.875rem;
+    line-height: 6.25rem;
+    margin: 0rem 0.625rem;
+    color: white;
+}
+.redes a:hover {
+    filter: blur(0.125rem);
+    transform: translateY(-0.313rem) scale(1.05);
+    box-shadow: 0 0.313rem 0.313rem 0 rgba(0, 0, 0, 0.4);
+    filter: none;
+}
+.redes ul li {
+    display: inline-block;
+    margin: 0.625rem 0.313rem;
+    text-align: center;
+    width: 3.125rem;
+    height: 3.125rem;
+}
+.redes ul li a {
+    display: inline-block;
+    padding: 0 1.25rem;
+    background: black;
+    color: white;
+    line-height: 3.125rem;
+    transition: 0.5s;
+    box-shadow: 0 0.188rem 0.313rem 0 rgba(0, 0, 0, 0.4);
+}
+
+.LinkedIn:hover {
+    background: #3b5999;
+}
+.Instagram:hover {
+    background: #e4405f;
+}
+
+.copy {
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: bold;
 }
