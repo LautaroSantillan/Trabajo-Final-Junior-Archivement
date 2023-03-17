@@ -204,6 +204,16 @@ nav ul li a::after {
     background-repeat: no-repeat;
 }
 
+.container-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.container-video iframe{
+    margin: 15px;
+}
+
 .table{
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;

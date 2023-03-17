@@ -22,34 +22,40 @@
                 </label>
                 <input type="checkbox" id="menu" class="nav--input">
                 <ul class="nav--visible">
-                    <li><a href="index.html">INICIO</a></li>
-                    <li><a href="index.html">DESCRIPCIÓN</a></li>
-                    <li><a href="index.html">AUTOS</a></li>
-                    <li><a href="index.html">FOOTER</a></li>
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#carreras">CARRERAS</a></li>
+                    <li><a href="#autos">AUTOS</a></li>
                 </ul>
             </nav>
         </div>
         <!-- FIN DEL HEADER / INICIO DEL MAIN -->
         <div class="main">
             <!-- DESCRIPCIÓN -->
-            <div class="container-fluid">
+            <div class="container-fluid" id="inicio">
                 <div class="row">
                     <div class="col-lg-9 bg-light description-f1">
                         <p style="padding: 20px;">El Campeonato Mundial de Fórmula 1 de la FIA, más conocido como Fórmula 1, F1 o Fórmula Uno. Es la principal competición de automovilismo internacional y el campeonato de deportes de motor más popular y prestigioso del mundo. La entidad que la dirige es la Federación Internacional del Automóvil (FIA).​
-                            A cada carrera se le denomina Gran Premio y el torneo que las agrupa es el Campeonato Mundial de Fórmula 1. La mayoría de los circuitos de carreras donde se celebran los Grandes Premios son autódromos, aunque también se utilizan circuitos callejeros. A su vez, los automóviles utilizados son monoplazas con la última tecnología disponible, siempre limitadas por un reglamento técnico; algunas mejoras que fueron desarrolladas en la Fórmula 1 terminaron siendo utilizadas en automóviles comerciales, como el freno de disco.
-                            La F1 tiene una estructura de competición en la que participan 10 equipos, con dos pilotos por equipo. Se trata de un formato de tabla de clasificación, en el que se acumulan puntos a lo largo de la temporada.
+                            <br>A cada carrera se le denomina Gran Premio y el torneo que las agrupa es el Campeonato Mundial de Fórmula 1. La mayoría de los circuitos de carreras donde se celebran los Grandes Premios son autódromos, aunque también se utilizan circuitos callejeros. A su vez, los automóviles utilizados son monoplazas con la última tecnología disponible, siempre limitadas por un reglamento técnico; algunas mejoras que fueron desarrolladas en la Fórmula 1 terminaron siendo utilizadas en automóviles comerciales, como el freno de disco.
+                            <br>La F1 tiene una estructura de competición en la que participan 10 equipos, con dos pilotos por equipo. Se trata de un formato de tabla de clasificación, en el que se acumulan puntos a lo largo de la temporada.
                         </p>
                     </div>
                     <div class="col-lg-3 logo-f1"></div>
                 </div>
             </div>
             <br><br>
+            <!-- VIDEO F1 -->
+            <div class="container-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Q-jjZMMxbZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YLFVD8xaD3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/s2Sh1uZjfNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <br><br>
             <!-- PAISES CALENDARIO -->
-            <div class="container table">
-                <h2>CALENDARIO DEL CAMPEONATO MUNDIAL F1</h2>           
+            <div class="container table" id="carreras">
+                <h2 style="text-decoration: underline;">CALENDARIO DEL CAMPEONATO MUNDIAL F1</h2>           
                 <table class="table">
                     <thead>
-                    <tr>
+                    <tr style="font-style: italic;">
                         <th>N°</th>
                         <th>Fecha</th>
                         <th>Gran Premio</th>
@@ -213,9 +219,9 @@
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
                 </div>
-                <div class="carousel-inner">
+                <div class="carousel-inner" id="autos">
                     <div class="carousel-item active">
-                        <img src="./img/rb.jpg" class="d-block w-100" alt="...">
+                        <img src="./img/rb.jpg" class="d-block w-100" alt="..." height="900px">
                         <div class="carousel-caption d-none d-md-block">
                         <h5>Oracle Red Bull Racing</h5>
                         <p style="color: black;">Milton Keynes, United Kingdom</p>
