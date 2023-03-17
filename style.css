@@ -204,6 +204,13 @@ nav ul li a::after {
     background-repeat: no-repeat;
 }
 
+.table{
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: azure !important;
+}
+
 /* FOOTER */
 .footer {
     grid-area: footer;
